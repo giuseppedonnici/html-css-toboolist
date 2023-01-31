@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+/* HEADER */
+header {
+    line-height: 100px;
+    background-color: white;
+    padding: 10px 0 10px 25px;
+    
+}
+header img {
+    height: 100px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: middle;
+    
+}
+
+body {
+    background-color: #dfdddd;
+}
