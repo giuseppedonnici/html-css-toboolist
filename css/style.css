@@ -81,12 +81,18 @@ hr {
     margin-top: 0.1em;
 }
 
-.check {
+.check, .cross {
     display: inline-block;
-    color: #80CCBB;
     border: 2px solid;
     width: 50px;
     text-align: center;
     border-radius: 50%;
     margin-right: 0.5em;
+}
+
+.check {
+    color: #80CCBB;
+}
+.cross {
+    color: #EA453B;
 }
