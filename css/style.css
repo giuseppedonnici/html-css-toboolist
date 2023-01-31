@@ -93,6 +93,41 @@ hr {
 .check {
     color: #80CCBB;
 }
+
 .cross {
     color: #EA453B;
+}
+
+/* LABELS AND COLORS */
+.label {
+    display: inline-block;
+    color: white;
+    padding: 0.8em;
+    font-size: 1.4rem;
+    border-radius: 1.5em;
+    margin-left: 1em;
+}
+
+.celestial {
+    background-color: #47ADF1;
+}
+
+.purple {
+    background-color: #9C72E4;
+}
+
+.green {
+    background-color: #64C0A9;
+}
+
+.orange {
+    background-color: #F29E33;
+}
+
+.red {
+    background-color: #D863A1;
+}
+
+.pistachio {
+    background-color: #B0C926;
 }
