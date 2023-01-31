@@ -24,6 +24,39 @@ h1 {
     
 }
 
+/* BODY */
 body {
     background-color: #dfdddd;
+}
+
+/* MAIN */
+main {
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+    margin: 4rem auto 1rem;
+    padding: 4rem 7rem 5rem;
+    border-radius: 10px;
+}
+
+.button {
+    font-size: 1.5rem;
+    padding: 0.8em;
+    
+    border-radius: 10px;
+}
+
+.add-task {
+    background-color: #47ADF1;
+    color: white;
+}
+
+.add-section {
+    background-color: white;
+    border: 3px solid #dfdddd;
+    color: #dfdddd;
+}
+
+hr {
+    margin-top: 2rem;
 }
