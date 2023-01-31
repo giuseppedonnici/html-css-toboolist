@@ -59,4 +59,34 @@ main {
 
 hr {
     margin-top: 2rem;
+    border-color: #dfdddd;
+}
+
+/* LIST */
+.normal-li, .strong-li {
+    list-style-type: none;
+}
+
+.normal-li {
+    font-size: 2rem;
+    margin: 0.7em 0;
+}
+
+.strong-li {
+    font-size: 2.5rem;
+    margin: 1.5em 0;
+}
+
+.strong-li .normal-li:first-child {
+    margin-top: 0.1em;
+}
+
+.check {
+    display: inline-block;
+    color: #80CCBB;
+    border: 2px solid;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 0.5em;
 }
